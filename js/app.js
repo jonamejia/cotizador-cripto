@@ -45,7 +45,6 @@ function selectCriptomonedas( criptomenedas ) {
 
     criptomenedas.forEach( criptomoneda => {
         const { FullName, Name } = criptomoneda.CoinInfo;
-        console.log(FullName);
 
         const option = document.createElement('OPTION');
         option.textContent = FullName;
